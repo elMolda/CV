@@ -1,0 +1,189 @@
+* {
+    box-sizing: border-box;
+  }
+
+  body{
+      background-color: #f0f3f6;
+  }
+.columna {
+    float: left;
+    padding: 9px;  
+  }
+
+  .fila:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  #Info{
+    width: 70%;
+    text-align: justify;
+    text-justify: inter-word;
+    margin:0;
+    padding: 10
+  }
+  
+  #Contacto{
+    text-align:right;
+    width: 30%;
+    margin-top: 60px;
+  }
+
+  #ExpEd{
+      width: 70%;
+  }
+
+  #Ski{
+      width: 30%;
+  }
+
+  .titulo{
+    font-family: 'Lato', sans-serif;
+    font-size: 80%;
+    font-weight: bold;
+    margin:0.05;
+  }
+
+  h3{
+    font-family: 'Lato', sans-serif;
+  }
+
+  .texto{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 75%; 
+    color: #000c19;
+  }
+  .textoL{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 75%; 
+    color: #000c19;
+    margin: 0;
+  }
+
+  .pres{
+    height: 300px;
+    width: 100%;
+  }
+
+  .icon {
+    height: 16px;
+    width: 16px;
+    display: inline-block;
+  }
+
+.timeline {
+  
+  
+  position: relative;
+  
+}
+.timeline:before {
+  content: '';
+  position: absolute;
+  top: 0px;
+  left: 179px;
+  bottom: 0px;
+  width: 4px;
+  background: #999da4;
+}
+.timeline:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.entry {
+  clear: both;
+  text-align: justify;
+  text-justify: inter-word;
+  position: relative;
+  font-family: 'Open Sans', sans-serif;
+}
+.entry .title {
+  margin-bottom: 0.5em;
+  float: left;
+  width: 33%;
+  padding-right: 30px;
+  text-align: left;
+  position: relative;
+  font-family: 'Lato', sans-serif;
+}
+.entry .title:before {
+  content: '';
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  border: 4px solid #0162c8;
+  background-color: #fff;
+  border-radius: 100%;
+  top: 15%;
+  right: 8px;
+  z-index: 99;
+}
+.entry .title h3 {
+  margin: 0;
+  font-size: 100%;
+}
+.entry .title p {
+  margin: 0;
+  font-size: 85%;
+}
+.entry .cuerpo {
+  margin: 0 0 ;
+  float: right;
+  width: 66%;
+  padding-left: 5px;
+  font-size: 75%;
+}
+.entry .cuerpo p {
+  line-height: 1.4em;
+}
+.entry .cuerpo p:first-child {
+  margin-top: 0;
+  font-weight: 400;
+}
+
+.lista{
+  margin: 0 0 0 20px;
+  padding: 0; 
+}
+
+
+.container {
+  width: 100%; /* Full width */
+  background-color: #acb1b9; /* Grey background */
+  height: 20px;
+}
+  
+.skills {
+  text-align: right; /* Right-align text */
+  padding-top: 10px; /* Add top padding */
+  padding-bottom: 10px; /* Add bottom padding */
+  height: 20px;
+}
+
+#Ski p{
+    margin: 0;
+    font-size: 75%;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+.java{width: 70%; background-color: #4da2fb;}
+.orc{width: 75%;background-color: #4da2fb}
+.py{width: 60%;background-color: #4da2fb}
+.r{width: 85%;background-color: #4da2fb}
+.pnt{width: 80%;background-color: #4da2fb}
+.slr{width: 60%;background-color: #4da2fb}
+.bnn{width: 60%;background-color: #4da2fb}
+.inc{width: 50%;background-color: #4da2fb}
+.frb{width: 68%;background-color: #4da2fb}
+.htcs{width: 80%;background-color: #4da2fb}
+.arg{width: 80%;background-color: #4da2fb}
+.ang{width: 55%;background-color: #4da2fb}
+.exc{width: 60%;background-color: #4da2fb}
+.pbi{width: 70%;background-color: #4da2fb}
+.eng{width: 90%;background-color: #4da2fb}
+.ita{width: 50%;background-color: #4da2fb}
+.por{width: 20%;background-color: #4da2fb}
+  
