@@ -3,7 +3,9 @@
   }
 
   body{
-      background-color: #f0f3f6;
+      /*background-color: #f2f2f2;*/
+      border: 2px solid #999da4;
+      border-radius: 5px;
   }
 .columna {
     float: left;
@@ -82,7 +84,7 @@
   content: '';
   position: absolute;
   top: 0px;
-  left: 179px;
+  left: 178px;
   bottom: 0px;
   width: 4px;
   background: #999da4;
