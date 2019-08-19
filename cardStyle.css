@@ -4,8 +4,7 @@
 
   body{
       /*background-color: #f2f2f2;*/
-      border: 2px solid #999da4;
-      border-radius: 5px;
+
   }
 .columna {
     float: left;
@@ -84,7 +83,7 @@
   content: '';
   position: absolute;
   top: 0px;
-  left: 178px;
+  left: 179px;
   bottom: 0px;
   width: 4px;
   background: #999da4;
@@ -189,3 +188,63 @@
 .ita{width: 50%;background-color: #4da2fb}
 .por{width: 20%;background-color: #4da2fb}
   
+.list-type1{
+  width: 100%;
+  /*width:400px;*/
+  padding-left: 9px;
+  margin-top: 4px;
+  }
+  
+  .list-type1 ol{
+  counter-reset: li;
+  list-style: none;
+  *list-style: decimal;
+  font-size: 75%;
+  font-family: 'Open Sans', sans-serif;
+  padding: 0;
+  margin-bottom: 4em;
+  }
+  .list-type1 ol ol{
+  margin: 0 0 0 2em;
+  }
+  
+  .list-type1 a{
+  position: relative;
+  display: block;
+  padding: .4em .4em .4em 2em;
+  *padding: .4em;
+  margin: .5em 0;
+  background:  #E1E4EA;
+  color: #000c19;
+  text-decoration: none;
+  -moz-border-radius: .3em;
+  -webkit-border-radius: .3em;
+  border-radius: 10em;
+  transition: all .2s ease-in-out;
+  }
+  
+  .list-type1 a:hover{
+  background: #d6d4d4;
+  text-decoration:none;
+  transform: scale(1.1);
+  }
+  
+  .list-type1 a:before{
+  content: counter(li);
+  counter-increment: li;
+  position: absolute;
+  left: -1.3em;
+  top: 50%;
+  margin-top: -1.3em;
+  background:#4da2fb;
+  height: 2em;
+  width: 2em;
+  line-height: 2em;
+  border: .3em solid #fff;
+  text-align: center;
+  font-weight: bold;
+  -moz-border-radius: 2em;
+  -webkit-border-radius: 2em;
+  border-radius: 2em;
+  color:#FFF;
+  }
